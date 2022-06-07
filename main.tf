@@ -13,8 +13,3 @@ resource "local_file" "sample" {
   content  = "Hello ${each.value}"
   filename = "${path.module}/${each.value}.txt"
 }
-
-output "output" {
-    value = local_file.sample["Bob"].filename
-  
-}
