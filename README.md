@@ -6,7 +6,7 @@ This repo contains simple code that it can demonstrate the use of meta-argument 
 
 The meta-argument **for-each** can be used to create multiple pre-defined resources from a set or map instead of creating them manually and duplicating the code. It has been added to Terraform in version 0.12.
 
-In the sample in the repo I used **local_file** resource. 
+The sample in the repo uses **local_file** resource. 
 
 # Prerequisite
 You need to have [Terraform CLI >0.12](https://learn.hashicorp.com/tutorials/terraform/install-cli) installed on you workstation. 
